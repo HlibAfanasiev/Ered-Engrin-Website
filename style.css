@@ -48,13 +48,13 @@ header {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  height: 60px;
+  height: 120px;
   width: auto;
   pointer-events: none;
   z-index: 1;
 }
 
-/* Навигация */
+
 nav ul {
   list-style: none;
   display: flex;
@@ -68,7 +68,7 @@ nav a {
   text-transform: uppercase;
 }
 
-/* ====== HERO ====== */
+
 
 .band-photo {
   max-width: 800px;
@@ -78,7 +78,7 @@ nav a {
   border-radius: 10px;
 }
 
-/* ====== SECTION ====== */
+
 
 section {
   padding: 4rem 2rem;
@@ -94,7 +94,7 @@ h2 {
   padding-bottom: 0.5rem;
 }
 
-/* ====== MEDIA ====== */
+
 
 .media-grid {
   display: flex;
@@ -111,7 +111,7 @@ h2 {
   border-radius: 8px;
 }
 
-/* ====== FOOTER ====== */
+
 
 footer {
   background: #111;
