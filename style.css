@@ -147,7 +147,11 @@ footer {
   }
 
   .middle-logo {
-    height: 40px;
+    position: absolute;
+    left: 50%;
+    height: 140px;
+    bottom: 20%;
+    width: auto;
   }
 
   nav ul {
