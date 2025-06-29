@@ -43,7 +43,7 @@ header {
   height: auto;
 }
 
-/* Центральное лого */
+
 .middle-logo {
   position: absolute;
   left: 50%;
@@ -148,9 +148,8 @@ footer {
 
   .middle-logo {
     position: absolute;
-    left: 50%;
+    left: 75%;
     height: 140px;
-    bottom: 20%;
     width: auto;
   }
 
