@@ -39,12 +39,12 @@ header {
 
 .band-logo {
   width: 220px;
-  height: auto;
+  height: 220px;
 }
 .middle-logo {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
+
   height: 60px; 
   pointer-events: none;
   z-index: 1;
