@@ -23,25 +23,32 @@ a:hover {
 
 /* Header */
 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #111;
+  border-bottom: 1px solid #333;
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
-  background: #111;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #333;
+  height: 4rem;
   z-index: 999;
-  height: 4rem; /* fixed height */
 }
 
-.band-logo {
-  width: 120px;
-  height: auto;
+.band-logo,
+.middle-logo {
+  height: 40px;
+  width: auto;
 }
 
+.middle-logo {
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
 nav ul {
   list-style: none;
   display: flex;
