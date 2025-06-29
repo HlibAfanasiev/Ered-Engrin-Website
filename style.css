@@ -38,14 +38,14 @@ header {
 }
 
 .band-logo {
-  width: 120px;
+  width: 220px;
   height: auto;
 }
 .middle-logo {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  height: 40px; 
+  height: 60px; 
   pointer-events: none;
   z-index: 1;
 }
