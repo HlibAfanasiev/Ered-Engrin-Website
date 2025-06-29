@@ -80,19 +80,18 @@ h2 {
   padding-bottom: 0.5rem;
 }
 
-
-/* Media Section */
+/*Media*/
 .media-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 1rem;
 }
 
-.media-grid iframe,
-.media-grid img {
-  width: 100%;
-  height: auto;
+.media-grid iframe {
+  width: 75vw; /* 75% ширины экрана */
+  max-width: 600px;
+  aspect-ratio: 3 / 4;
   border: none;
   border-radius: 8px;
 }
