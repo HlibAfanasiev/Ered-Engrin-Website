@@ -38,19 +38,17 @@ header {
 }
 
 .band-logo {
-  height: 20px;
-  width: auto;
+  width: 120px;
+  height: auto;
 }
-
 .middle-logo {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  height: auto;
-  max-height: 50px;
+  height: 40px; 
   pointer-events: none;
+  z-index: 1;
 }
-
 
 nav ul {
   list-style: none;
