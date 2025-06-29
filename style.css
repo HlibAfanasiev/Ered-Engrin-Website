@@ -47,7 +47,7 @@ header {
   left: 50%;
   transform: translateX(-50%);
   height: auto;
-  max-height: 60px;
+  max-height: 50px;
   pointer-events: none;
 }
 
