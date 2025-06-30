@@ -84,6 +84,22 @@ h2 {
   padding-bottom: 0.5rem;
 }
 
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.social-icons img {
+  transition: transform 0.2s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+
 /* Media content */
 .band-photo {
   max-width: 800px;
@@ -95,15 +111,16 @@ h2 {
 
 .media-grid {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
   align-items: center;
   margin-top: 1rem;
 }
 
 .media-grid iframe {
-  width: 75vw;
+  width: 90vw;
   max-width: 600px;
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 16/9;
   border: none;
   border-radius: 8px;
 }
