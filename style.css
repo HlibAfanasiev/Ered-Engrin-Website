@@ -151,7 +151,7 @@ footer {
   nav ul {
     position: absolute;
     top: 4rem;
-    right: 1rem;
+    left: 1rem;
     background-color: #111;
     border: 1px solid #333;
     padding: 1rem;
@@ -186,4 +186,3 @@ footer {
     padding: 1rem;
   }
 }
-
