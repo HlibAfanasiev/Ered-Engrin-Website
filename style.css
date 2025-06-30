@@ -1,3 +1,4 @@
+/* ========== BASE STYLES ========== */
 html {
   scroll-behavior: smooth;
 }
@@ -20,8 +21,9 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ====== HEADER ====== */
+/* ========== DESKTOP STYLES ========== */
 
+/* Header */
 header {
   position: fixed;
   top: 0;
@@ -37,12 +39,11 @@ header {
   height: 4rem;
 }
 
-/* Логотип слева */
+/* Logo */
 .band-logo {
   width: 100px;
   height: auto;
 }
-
 
 .middle-logo {
   position: absolute;
@@ -54,7 +55,7 @@ header {
   z-index: 1;
 }
 
-
+/* Navigation */
 nav ul {
   list-style: none;
   display: flex;
@@ -68,18 +69,7 @@ nav a {
   text-transform: uppercase;
 }
 
-
-
-.band-photo {
-  max-width: 800px;
-  height: auto;
-  margin-bottom: 0px;
-  filter: drop-shadow(0 40px 40px rgba(0, 0, 0, 0.7));
-  border-radius: 10px;
-}
-
-
-
+/* Sections */
 section {
   padding: 4rem 2rem;
   max-width: 1000px;
@@ -94,7 +84,14 @@ h2 {
   padding-bottom: 0.5rem;
 }
 
-
+/* Media content */
+.band-photo {
+  max-width: 800px;
+  height: auto;
+  margin-bottom: 0;
+  filter: drop-shadow(0 40px 40px rgba(0, 0, 0, 0.7));
+  border-radius: 10px;
+}
 
 .media-grid {
   display: flex;
@@ -111,8 +108,7 @@ h2 {
   border-radius: 8px;
 }
 
-
-
+/* Footer */
 footer {
   background: #111;
   text-align: center;
@@ -121,8 +117,7 @@ footer {
   color: #777;
 }
 
-/* ====== MOBILE ====== */
-
+/* ========== MOBILE STYLES ========== */
 .menu-toggle {
   display: none;
   font-size: 1.5rem;
@@ -191,3 +186,4 @@ footer {
     padding: 1rem;
   }
 }
+
